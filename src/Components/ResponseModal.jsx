@@ -92,7 +92,7 @@ function ResponseModal({
         onCancel={() => setIsModalOpen(false)}
       >
         <Row gutter={16}>
-          <Col span={8}>
+          <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
             {/* Render the menu with the list of candidates */}
             <Menu
               onClick={onClick}
@@ -112,7 +112,7 @@ function ResponseModal({
               ]}
             />
           </Col>
-          <Col span={16}>
+          <Col xs={24} sm={24} md={16} lg={16} xl={16} xxl={16}>
             {/* Render the video player and editor for comments */}
             {application && (
               <Tabs
