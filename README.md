@@ -48,6 +48,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+## Additional Info
+
 1. How did you decide which technologies to use as part of your solution?
 
 I decided to use React ,Antd,axios, and React Player as React is a modern javascript library which was created by facebook.From the start of web development there have been a question how to update the DOM efficienty?.React comes up with a solution for that which is called as Virtual Dom in order to update the dom efficiently.Antd is a UI library for react which provides a set of reusable components like Button,List,Table,Tabs,Modal etc.Axios is used in order to make network requests.I have used axios instead of fetch as axios has a advantage over fetch i.e axios make a preflight request to check whether the network resource is availble or not.React Player is a react based component which is used for playing audio and video files.
