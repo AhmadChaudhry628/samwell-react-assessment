@@ -2,28 +2,6 @@
 
 This is a a simple React application, where users will be able to view a job candidate's video responses, comment on the responses & save the data.
 
-1. How did you decide which technologies to use as part of your solution?
-
-I decided to use React ,Antd,axios, and React Player as React is a modern javascript library which was created by facebook.From the start of web development there have been a question how to update the DOM efficienty?.React comes up with a solution for that which is called as Virtual Dom in order to update the dom efficiently.Antd is a UI library for react which provides a set of reusable components like Button,List,Table,Tabs,Modal etc.Axios is used in order to make network requests.I have used axios instead of fetch as axios has a advantage over fetch i.e axios make a preflight request to check whether the network resource is availble or not.React Player is a react based component which is used for playing audio and video files.
-
-2. Are there any improvements you could make to your submission?
-
-Absolutely! While my submission has a responsive design, working with a UI designer could have further improved the design aspect of my application. A UI designer is a professional who specializes in designing user interfaces for software applications, websites, and other digital products. With their expertise in design principles, color theory, typography, and layout, a UI designer could have provided valuable input to ensure that the design of my application is aesthetically pleasing and user-friendly.
-
-Furthermore, a UI designer could have helped me to create a more polished and cohesive design by ensuring consistency in visual elements such as colors, typography, and iconography throughout the application. This could have resulted in a more visually appealing and professional-looking application that users would be more likely to engage with.
-
-In addition to improving the design aspect of my application, working with a UI designer could have also helped to enhance its mobile responsiveness. A UI designer could have ensured that the application's layout, typography, and graphics were optimized for smaller screen sizes, resulting in a more user-friendly and visually pleasing experience on mobile devices.
-
-3. What would you do differently if you were allocated more time?
-
-Certainly! If I were allocated more time, there are several additional improvements that I would have made to my submission. Firstly, although I have written some test cases for the API services, if I had more time, I would have aimed to unit test all the functions within the application. This would have allowed me to identify and resolve any issues with the code logic and ensure that the application functions as expected.
-
-Furthermore, I would have invested more time in testing the application's UI using tools such as Cypress, to ensure that it works as intended across different devices and platforms.
-
-Another area that I would have focused on is optimizing the application's performance. This could involve identifying and resolving any bottlenecks in the code, as well as optimizing the application's asset delivery and caching. By improving the application's performance, I could ensure that it loads quickly and smoothly, providing users with a seamless experience.
-
-Overall, while I am satisfied with the current state of my submission, given more time, I believe that these improvements would have further elevated the quality of the application and provided a more satisfying experience for users.
-
 ## Getting Started
 
 To get started with the app, follow these steps:
@@ -69,3 +47,25 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+1. How did you decide which technologies to use as part of your solution?
+
+I decided to use React ,Antd,axios, and React Player as React is a modern javascript library which was created by facebook.From the start of web development there have been a question how to update the DOM efficienty?.React comes up with a solution for that which is called as Virtual Dom in order to update the dom efficiently.Antd is a UI library for react which provides a set of reusable components like Button,List,Table,Tabs,Modal etc.Axios is used in order to make network requests.I have used axios instead of fetch as axios has a advantage over fetch i.e axios make a preflight request to check whether the network resource is availble or not.React Player is a react based component which is used for playing audio and video files.
+
+2. Are there any improvements you could make to your submission?
+
+Absolutely! While my submission has a responsive design, working with a UI designer could have further improved the design aspect of my application. A UI designer is a professional who specializes in designing user interfaces for software applications, websites, and other digital products. With their expertise in design principles, color theory, typography, and layout, a UI designer could have provided valuable input to ensure that the design of my application is aesthetically pleasing and user-friendly.
+
+Furthermore, a UI designer could have helped me to create a more polished and cohesive design by ensuring consistency in visual elements such as colors, typography, and iconography throughout the application. This could have resulted in a more visually appealing and professional-looking application that users would be more likely to engage with.
+
+In addition to improving the design aspect of my application, working with a UI designer could have also helped to enhance its mobile responsiveness. A UI designer could have ensured that the application's layout, typography, and graphics were optimized for smaller screen sizes, resulting in a more user-friendly and visually pleasing experience on mobile devices.
+
+3. What would you do differently if you were allocated more time?
+
+Certainly! If I were allocated more time, there are several additional improvements that I would have made to my submission. Firstly, although I have written some test cases for the API services, if I had more time, I would have aimed to unit test all the functions within the application. This would have allowed me to identify and resolve any issues with the code logic and ensure that the application functions as expected.
+
+Furthermore, I would have invested more time in testing the application's UI using tools such as Cypress, to ensure that it works as intended across different devices and platforms.
+
+Another area that I would have focused on is optimizing the application's performance. This could involve identifying and resolving any bottlenecks in the code, as well as optimizing the application's asset delivery and caching. By improving the application's performance, I could ensure that it loads quickly and smoothly, providing users with a seamless experience.
+
+Overall, while I am satisfied with the current state of my submission, given more time, I believe that these improvements would have further elevated the quality of the application and provided a more satisfying experience for users.
