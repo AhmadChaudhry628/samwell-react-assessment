@@ -1,5 +1,5 @@
 import { UserOutlined } from "@ant-design/icons";
-import { Breadcrumb, Layout, Menu, theme } from "antd";
+import { Breadcrumb, Layout, Menu } from "antd";
 import { useState } from "react";
 import { getItem } from "../Utils/helpers";
 const { Header, Content, Footer, Sider } = Layout;
@@ -7,15 +7,9 @@ const { Header, Content, Footer, Sider } = Layout;
 const items = [getItem("Candidates", "1", <UserOutlined />)];
 const HomeLayout = ({ children }) => {
   const [collapsed, setCollapsed] = useState(false);
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
+
   return (
-    <Layout
-      style={{
-        minHeight: "100vh",
-      }}
-    >
+    <Layout className="layout">
       <Sider
         collapsible
         collapsed={collapsed}
@@ -30,41 +24,14 @@ const HomeLayout = ({ children }) => {
         />
       </Sider>
       <Layout className="site-layout">
-        <Header
-          style={{
-            padding: 0,
-            background: colorBgContainer,
-          }}
-        />
-        <Content
-          style={{
-            margin: "0 16px",
-          }}
-        >
-          <Breadcrumb
-            style={{
-              margin: "16px 0",
-            }}
-          >
+        <Header className="header" />
+        <Content className="content">
+          <Breadcrumb className="breadcrumb">
             <Breadcrumb.Item>Candidates</Breadcrumb.Item>
           </Breadcrumb>
-          <div
-            style={{
-              padding: 24,
-              minHeight: "75vh",
-              background: colorBgContainer,
-            }}
-          >
-            {children}
-          </div>
+          <div className="sub-content">{children}</div>
         </Content>
-        <Footer
-          style={{
-            textAlign: "center",
-          }}
-        >
-          Ant Design ©2023 Created by Ant UED
-        </Footer>
+        <Footer className="text-center">Samwell React Assesment</Footer>
       </Layout>
     </Layout>
   );

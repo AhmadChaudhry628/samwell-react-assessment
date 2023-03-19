@@ -30,3 +30,24 @@ code {
   font-size: 24px;
   color: white;
 }
+.breadcrumb {
+  margin: 16px 0;
+}
+.content {
+  margin: 0 16px;
+}
+.text-center {
+  text-align: center;
+}
+.header {
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+.sub-content {
+  padding: 24px;
+  min-height: 75vh;
+  background: rgb(255, 255, 255);
+}
+.layout {
+  min-height: 100vh;
+}
