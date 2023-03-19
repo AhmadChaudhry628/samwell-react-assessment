@@ -4,17 +4,11 @@ This is a a simple React application, where users will be able to view a job can
 
 1. How did you decide which technologies to use as part of your solution?
 
-I decided to use React ,Antd and React Player as React is a modern javascript library which was created by facebook.From the start of web development there have been a question how to update the DOM efficienty?.React comes up with a solution for that which is called as Virtual Dom
-
-One of the key benefits of React is its component-based architecture, which allows developers to create reusable UI elements and compose them to build complex applications. React also uses a virtual DOM (Document Object Model), which allows it to efficiently update the UI in response to user actions or changes in the data without having to re-render the entire page.
-
-Ant Design (Antd) is a popular UI library for React that provides a set of reusable components and design guidelines for building modern web applications. It was created by the Alibaba Group and has gained widespread adoption among developers due to its comprehensive set of components, simplicity, and ease of use.
-
-React Player is a React-based player component for playing audio and video files, which provides a simple and customizable interface for controlling playback and displaying media content. It supports a wide range of media formats and offers various features, such as full-screen mode, playback speed control, and subtitles support.
+I decided to use React ,Antd,axios, and React Player as React is a modern javascript library which was created by facebook.From the start of web development there have been a question how to update the DOM efficienty?.React comes up with a solution for that which is called as Virtual Dom in order to update the dom efficiently.Antd is a UI library for react which provides a set of reusable components like Button,List,Table,Tabs,Modal etc.Axios is used in order to make network requests.I have used axios instead of fetch as axios has a advantage over fetch i.e axios make a preflight request to check whether the network resource is availble or not.React Player is a react based component which is used for playing audio and video files.
 
 2. Are there any improvements you could make to your submission?
-   
-   Absolutely! While my submission has a responsive design, working with a UI designer could have further improved the design aspect of my application. A UI designer is a professional who specializes in designing user interfaces for software applications, websites, and other digital products. With their expertise in design principles, color theory, typography, and layout, a UI designer could have provided valuable input to ensure that the design of my application is aesthetically pleasing and user-friendly.
+
+Absolutely! While my submission has a responsive design, working with a UI designer could have further improved the design aspect of my application. A UI designer is a professional who specializes in designing user interfaces for software applications, websites, and other digital products. With their expertise in design principles, color theory, typography, and layout, a UI designer could have provided valuable input to ensure that the design of my application is aesthetically pleasing and user-friendly.
 
 Furthermore, a UI designer could have helped me to create a more polished and cohesive design by ensuring consistency in visual elements such as colors, typography, and iconography throughout the application. This could have resulted in a more visually appealing and professional-looking application that users would be more likely to engage with.
 
