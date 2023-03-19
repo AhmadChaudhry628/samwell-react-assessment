@@ -13,6 +13,7 @@ Ant Design (Antd) is a popular UI library for React that provides a set of reusa
 React Player is a React-based player component for playing audio and video files, which provides a simple and customizable interface for controlling playback and displaying media content. It supports a wide range of media formats and offers various features, such as full-screen mode, playback speed control, and subtitles support.
 
 2. Are there any improvements you could make to your submission?
+   
    Absolutely! While my submission has a responsive design, working with a UI designer could have further improved the design aspect of my application. A UI designer is a professional who specializes in designing user interfaces for software applications, websites, and other digital products. With their expertise in design principles, color theory, typography, and layout, a UI designer could have provided valuable input to ensure that the design of my application is aesthetically pleasing and user-friendly.
 
 Furthermore, a UI designer could have helped me to create a more polished and cohesive design by ensuring consistency in visual elements such as colors, typography, and iconography throughout the application. This could have resulted in a more visually appealing and professional-looking application that users would be more likely to engage with.
